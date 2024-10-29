@@ -1,0 +1,63 @@
+{
+
+"roadsideassistance": [
+    {
+        "key": "CustomerID",
+        "type": "keyid",
+        "UIComponentTitle": "RoadsideAssistance"
+    }
+        ,{
+        "key": "BookingID",
+        "label": "BookingID",
+        "type": "text",
+        "editable": true,
+        "validators": [
+             "isNumber"
+, "isPositive"
+        ]
+                            }
+    ,{
+        "key": "BikeID",
+        "label": "BikeID",
+        "type": "text",
+        "editable": true,
+        "validators": [
+             "isNumber"
+, "isPositive"
+        ]
+                            }
+    ,{
+        "key": "Manufacturer",
+        "label": "Manufacturer",
+        "type": "text",
+        "editable": true,
+        "validators": [
+                    ]
+                            }
+    ,{
+        "key": "BikeModel",
+        "label": "BikeModel",
+        "type": "text",
+        "editable": true,
+        "validators": [
+                    ]
+                            }
+    ,{
+        "key": "ProblemwithBike",
+        "label": "ProblemwithBike",
+        "type": "check",
+        "editable": true,
+        "validators": [
+             "isTruthy"
+        ]
+                            }
+    ,{
+        "key": "Address",
+        "label": "Address",
+        "type": "text",
+        "editable": true,
+        "validators": [
+                    ]
+                            }
+]
+}
